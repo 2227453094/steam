@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		li{
+			list-style:none;
+			position:absolute;
+			top:0;
+			left:0;
+		}
+		ul{
+			position:absolute;
+			width:1600px;
+			height:800px;
+			top:50%;
+			left:50%;
+			transform:translate(-50%,-50%);
+		}
+		img{
+			position:absolute;
+			top:0;
+			left:0;
+		}
+		#btn{
+			margin-top:700px;
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li style="opacity:1;">
+			<img src="img/1-1.png" alt="" style="left:0;">
+			<img src="img/1-2.png" alt="" style="left:160px;">
+		</li>
+		<li style="opacity:0;">
+			<img src="img/2-1.png" alt="" style="left:-200px;">
+			<img src="img/2-2.png" alt="" style="left:360px;">
+		</li>
+		<li style="opacity:0;">
+			<img src="img/3-1.png" alt="" style="left:-200px;">
+			<img src="img/3-2.png" alt="" style="left:360px;">
+		</li>
+	</ul>
+	<button id="btn">下一张</button>
+	<script>
+		var liList = document.getElementsByTagName("ul")[0].children;
+		var index = 0;
+		var n = 0;
+		btn.onclick = function(){
+			n++;
+			if(n == 3){
+				n = 0;
+			}
+			var move = setInterval(function(){
+				var lf = parseInt(liList[index].children[0].style.left);
+				liList[index].children[0].style.left = lf - 5 + "px";
+				lf = parseInt(liList[index].children[0].style.left);
+
+
+				var rf = parseInt(liList[index].children[1].style.left);
+				liList[index].children[1].style.left = rf + 5 + "px";
+				lf = parseInt(liList[index].children[0].style.left);
+
+				var op = Number(liList[index].style.opacity);
+				liList[index].style.opacity = op - 0.03;
+
+				if(lf == -200){
+					clearInterval(move);
+					liList[index].style.opacity = 0;
+					var auto = setInterval(function(){
+						var lf = parseInt(liList[n].children[0].style.left);
+						liList[n].children[0].style.left = lf + 5 + "px";
+						lf = parseInt(liList[n].children[0].style.left);
+
+
+						var rf = parseInt(liList[n].children[1].style.left);
+						liList[n].children[1].style.left = rf - 5 + "px";
+						lf = parseInt(liList[n].children[0].style.left);
+
+						var op = Number(liList[n].style.opacity);
+						liList[n].style.opacity = op + 0.03;
+
+						if(lf == 0){
+							clearInterval(auto);
+							liList[n].style.opacity = 1;
+							index = n;
+						}
+					},16)
+				}
+			},16)
+		}
+	</script>
+</body>
+</html>
