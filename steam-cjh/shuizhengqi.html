@@ -1,0 +1,1325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./js/jquery_Newest.js"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/shuizhengqi.css">
+    <link rel="shortcut icon" href="./images/steamtubiao.png">
+    <script src="./js/cookie.min.js"></script>
+    <title>Steam-水蒸气</title>
+</head>
+
+<body>
+    <div id="global_header">
+        <div class="content">
+            <div class="logo">
+                <img class="logo_holder"
+                    src="https://store.st.dl.bscstorage.net/public/shared/images/header/globalheader_logo.png?t=962016"
+                    alt="">
+            </div>
+            <ul class="supernav_container">
+                <li class="menuitem supernav">
+                    <a href="#" class="Ahover">商店</a>
+                    <div class="supernav_contents content_Hover">
+                        <div class="submenu_store">
+                            <a href="#" class="submenuitem">精选</a>
+                            <a href="#" class="submenuitem">探索</a>
+                            <a href="#" class="submenuitem">鉴赏家</a>
+                            <a href="#" class="submenuitem">愿望单</a>
+                            <a href="#" class="submenuitem">新闻</a>
+                            <a href="#" class="submenuitem">统计</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="menuitem supernav">
+                    <a href="#" class="Ahover">社区</a>
+                    <div class="supernav_contentb content_Hover">
+                        <div class="submenu_community">
+                            <a href="#" class="submenuitem">主页</a>
+                            <a href="#" class="submenuitem">讨论</a>
+                            <a href="#" class="submenuitem">创意工坊</a>
+                            <a href="#" class="submenuitem">市场</a>
+                            <a href="#" class="submenuitem">实况直播</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="menuitem">关于</li>
+                <li class="menuitem">客服</li>
+            </ul>
+            <ul class="global_actions">
+                <li class="header_installsteam_btn">
+                    <a href="#" class="header_installsteam_btn_content">安装&nbsp;Steam</a>
+                </li>
+                <li class="global_action_link">登录</li>
+                <li>&nbsp;|&nbsp;</li>
+                <li class="pulldown">
+                    <a href="javascript:;" class="global_action_link">语言</a>
+                    <div class="language_dropdown">
+                        <ul class="popup_s popup_menus">
+                            <li class="popup_menu_item tight">繁體中文（繁体中文）</li>
+                            <li class="popup_menu_item tight">日本語（日语）</li>
+                            <li class="popup_menu_item tight">한국어（韩语）</li>
+                            <li class="popup_menu_item tight">ไทย（泰语）</li>
+                            <li class="popup_menu_item tight">български（保加利亚语）</li>
+                            <li class="popup_menu_item tight">Čeština（捷克语）</li>
+                            <li class="popup_menu_item tight">Dansk（丹麦语）</li>
+                            <li class="popup_menu_item tight">Deutsch（德语）</li>
+                            <li class="popup_menu_item tight">English（英语）</li>
+                            <li class="popup_menu_item tight">Español-España（西班牙语 - 西班牙）</li>
+                            <li class="popup_menu_item tight">Español - Latinoamérica（西班牙语-拉丁美洲）</li>
+                            <li class="popup_menu_item tight">Ελληνικά（希腊语）</li>
+                            <li class="popup_menu_item tight">Français（法语）</li>
+                            <li class="popup_menu_item tight">Italiano（意大利语）</li>
+                            <li class="popup_menu_item tight">Magyar（匈牙利语）</li>
+                            <li class="popup_menu_item tight">Nederlands（荷兰语）</li>
+                            <li class="popup_menu_item tight">Norsk（挪威语）</li>
+                            <li class="popup_menu_item tight">Polski（波兰语）</li>
+                            <li class="popup_menu_item tight">Português（葡萄牙语）</li>
+                            <li class="popup_menu_item tight">Português-Brasil（葡萄牙语-巴西）</li>
+                            <li class="popup_menu_item tight">Română（罗马尼亚语）</li>
+                            <li class="popup_menu_item tight">Русский（俄语）</li>
+                            <li class="popup_menu_item tight">Suomi（芬兰语）</li>
+                            <li class="popup_menu_item tight">Svenska（瑞典语）</li>
+                            <li class="popup_menu_item tight">Türkçe（土耳其语）</li>
+                            <li class="popup_menu_item tight">Tiếng Việt（越南语）</li>
+                            <li class="popup_menu_item tight">Українська（乌克兰语）</li>
+                            <li class="popup_menu_item tight">帮助我们翻译 Steam</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="./js/shuizhengqixiala.js"></script>
+    <div class="responsive_page_template_content">
+        <div class="home_page_body_ctn">
+            <div class="home_page_content">
+                <div class="responsive_store_nav_ctn_spacer">
+                    <div class="store_nav_area">
+                        <div class="store_nav_bg">
+                            <ul class="store_nav">
+                                <li class="tab  flyout_tab">
+                                    <a href="#" class="pulldown_desktop">您的商店</a>
+                                    <div class="pulldown_desktop_hover _hoverss">
+                                        <div class="popup_body popup_menu">
+                                            <a href="" class="popup_menu_i">商店主页</a>
+                                            <div class="hr"></div>
+                                            <a href="" class="popup_menu_i">最近查看过的</a>
+                                            <a href="" class="popup_menu_i">Steam 鉴赏家</a>
+                                            <a href="" class="popup_menu_i">最近更新</a>
+                                        </div>
+                                    </div>
+                                    <span></span>
+                                </li>
+                                <li class="tab  flyout_tab">
+                                    <a href="#" class="pulldown_desktop">游戏</a>
+                                    <div class="pulldown_desktop_hovers _hoverss">
+                                        <div class="popup_bodys popup_menu">
+                                            <a href="" class="popup_menu_i">免费游玩</a>
+                                            <a href="" class="popup_menu_i">抢先体验</a>
+                                            <a href="" class="popup_menu_i">试玩</a>
+                                            <a href="" class="popup_menu_i">虚拟现实</a>
+                                            <a href="" class="popup_menu_i">支持 Steam 控制器</a>
+                                            <a href="" class="popup_menu_i">Steam 上的网吧游戏</a>
+                                            <div class="hr"></div>
+                                            <div class="popup_menu_subheader">按类型浏览：</div>
+                                            <a href="" class="popup_menu_i">休闲</a>
+                                            <a href="" class="popup_menu_i">体育</a>
+                                            <a href="" class="popup_menu_i">冒险</a>
+                                            <a href="" class="popup_menu_i">动作</a>
+                                            <a href="" class="popup_menu_i">大型多人在线</a>
+                                            <a href="" class="popup_menu_i">模拟</a>
+                                            <a href="" class="popup_menu_i">独立</a>
+                                            <a href="" class="popup_menu_i">竞速</a>
+                                            <a href="" class="popup_menu_i">策略</a>
+                                            <a href="" class="popup_menu_i">角色扮演</a>
+                                            <div class="hr"></div>
+                                            <a href="" class="popup_menu_i">查看热门标签</a>
+                                            <div class="hr"></div>
+                                            <div class="popup_menu_subheader">按平台浏览：</div>
+                                            <a href="" class="popup_menu_i">Mac OS X</a>
+                                            <a href="" class="popup_menu_i">SteamOS + Linux</a>
+                                        </div>
+                                    </div>
+                                    <span></span>
+                                </li>
+                                <li class="tab  flyout_tab">
+                                    <a href="#" class="pulldown_desktop">软件</a>
+                                    <div class="pulldown_desktop_hoverss _hoverss">
+                                        <div class="popup_bodyss">
+                                            <a href="" class="popup_menu_i">软件中心</a>
+                                            <div class="hr"></div>
+                                            <a href="" class="popup_menu_i">动画制作和建模</a>
+                                            <a href="" class="popup_menu_i">实用工具</a>
+                                            <a href="" class="popup_menu_i">教育</a>
+                                            <a href="" class="popup_menu_i">游戏开发</a>
+                                            <a href="" class="popup_menu_i">照片编辑</a>
+                                            <a href="" class="popup_menu_i">网络出版</a>
+                                            <a href="" class="popup_menu_i">视频制作</a>
+                                            <a href="" class="popup_menu_i">设计与插画</a>
+                                            <a href="" class="popup_menu_i">音频制作</a>
+                                        </div>
+                                    </div>
+                                    <span></span>
+                                </li>
+                                <li class="tab  flyout_tab">
+                                    <a href="#" class="pulldown_desktop">硬件</a>
+                                    <div class="pulldown_desktop_hoversss _hoverss">
+                                        <div class="popup_bodysss">
+                                            <a href="" class="popup_menu_i">Valve Index</a>
+                                            <a href="" class="popup_menu_i">Steam 控制器</a>
+                                            <a href="" class="popup_menu_i">Steam 流式盒</a>
+                                            <a href="" class="popup_menu_i">HTC Vive</a>
+                                        </div>
+                                    </div>
+                                    <span></span>
+                                </li>
+                                <li class="tab">
+                                    <a href="#" class="pulldown_desktop">新闻</a>
+                                </li>
+                                <li class="search_area">
+                                    <div class="searchbox">
+                                        <input type="text" class="default" placeholder="搜索商店">
+                                        <a href="#" id="store_search_link"></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="home_page_contents">
+                <h2>精选和推荐</h2>
+                <div id="home_maincap_v7" class="carousel_container maincap">
+                    <div class="carousel_items">
+                    </div>
+                    <div class="carousel_thumbs">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="arrow left">
+                        <div></div>
+                    </div>
+                    <div class="arrow right">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="Sidebar">
+                <div class="Sidebar-one">
+                    <div class="Sidebar_header">
+                        <img class="Sidebar-img"
+                            src="https://store.st.dl.bscstorage.net/public/images//gift/steamcards_promo_02.png">
+                        <span class="Sidebar-span">礼物卡</span>
+                    </div>
+                    <div class="gutter_items">
+                        <a class="gutter_items" href=" ">现已在 steam</a>
+                    </div>
+                    <div class="gutter_header">推荐</div>
+                    <div class="items">
+                        <a><span class="fd"></span>由好友推荐</a>
+                        <a><span class="jsj"></span>由鉴赏家推荐</a>
+                        <a><span class="bq"></span>标签</a>
+                    </div>
+                    <div class="head">探索队列</div>
+                    <div class="items">
+                        <a><span class="fd" style=" background-position: -48px 0px;"></span>推荐</a>
+                        <a> <span class="jsj style"=" background-position: -48px 0px;"></span>新品</a>
+                    </div>
+                    <div class="head">浏览分类</div>
+                    <div class="items">
+                        <a><span class="fd" style=" background-position: -80px 0px;"></span>热销商品</a>
+                        <a> <span class="jsj" style=" background-position: -96px 0px;"></span>最近更新</a>
+                        <a><span class="fd" style=" background-position: -112px 0px;"></span>新品</a>
+                        <a> <span class="jsj" style=" background-position: -128px 0px;"></span>即将推出</a>
+                        <a><span class="fd" style=" background-position: -144px 0px;"></span>优惠</a>
+                        <a> <span class="jsj" style=" background-position: -160px 0px;"></span>虚拟现实</a>
+                        <a><span class="fd" style=" background-position: -176px 0px;"></span>支持Steam控制器</a>
+                    </div>
+                    <div class="head">按类型分类</div>
+                    <div class="items">
+                        <a href="#">免费游玩</a>
+                        <a href="#">抢先体验</a>
+                        <a href="#">休闲</a>
+                        <a href="#">体育</a>
+                        <a href="#">冒险</a>
+                        <a href="#">动作</a>
+                        <a href="#">大型多人在线</a>
+                        <a href="#">模拟</a>
+                        <a href="#">独立</a>
+                        <a href="#">竞速</a>
+                        <a href="#">策略</a>
+                        <a href="#">角色扮演</a>
+                    </div>
+                    <div class="home_page_gutter_block">
+                        <div class="gutter_header" id="history">最近查看</div>
+                        <div class="gutter_itemss"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="special_offers">
+                <h2 class="offers_h2">特别优惠
+                    <span>浏览更多</span>
+                </h2>
+                <div class="carousel_container spotlight">
+                    <div class="elll">
+                        <div class="focus spotlight_move">
+                            <div class="home_area_spotlight">
+                                <div class="spotlight_">
+                                    <div class="spotlight_weeklong_ctn">
+                                        <div class="spotlight_text_overlay"></div>
+                                        <span class="spotlight_count">1279</span>
+                                    </div>
+                                    <div class="spotlight_weeklong_subtitle">每周一皆有新特惠</div>
+                                </div>
+                                <div class="spotlight_s">
+                                    <a href="" class="store_capsule daily_deal" id="app_impression_tracked">
+                                        <img class="capsule header" src="./images/header.jpg" alt="">
+                                        <div class="dailydeal_desc">
+                                            <div>今日特惠！</div>
+                                            <div class="dailydeal_countdown ttip">33:09:14</div>
+                                        </div>
+                                        <div class="discount_block daily_deal_discount discount_block_large">
+                                            <div class="discount_pct">-60%</div>
+                                            <div class="discount_prices">
+                                                <div class="discount_original_price">￥68</div>
+                                                <div class="discount_final_price">￥27</div>
+                                            </div>
+                                        </div>
+                                        <div class="store_capsule_hover">
+                                            <div class="dakuai">
+                                                <h4 class="h4ming">Where the Water Tastes Like Wine</h4>
+                                                <p class="hover_release">发行于: 2018年3月1日</p>
+                                                <ul class="posi">
+                                                    <li>
+                                                        <img src="./images/ss_fb800955aa970caa4dda325b283612403d5095ae.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                    <li>
+                                                        <img src="./images/ss_0cdb49c3d3b0352201a6f0526d8a3d39976555d2.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                    <li>
+                                                        <img src="./images/ss_855eacbd59a12d5c76aff9fafb2e689dff70e782.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                    <li>
+                                                        <img src="./images/ss_f9cbc8805d2eb9e42aa643403f4a2f1fd2a28383.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                </ul>
+                                                <div class="pingce">
+                                                    <p>总体用户评测:</p>
+                                                    <span class="pingcezuo">特别好评</span>
+                                                    <span class="pingceyou">(359 篇评测)</span>
+                                                </div>
+                                                <div class="bianqian">
+                                                    <p class="bianp">用户标签：</p>
+                                                    <span>独立</span>
+                                                    <span>冒险</span>
+                                                    <span>角色扮演</span>
+                                                    <span>互动小说</span>
+                                                    <span>好评原声音轨</span>
+                                                    <span>剧情丰富</span>
+                                                    <span>氛围</span>
+                                                    <span>单人</span>
+                                                </div>
+                                                <div class="sanjiao">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="" class="store_capsule daily_deal" id="app_impression_tracked">
+                                        <img class="capsule header" src="./images/header (1).jpg" alt="">
+                                        <div class="dailydeal_desc">
+                                            <div>今日特惠！</div>
+                                            <div class="dailydeal_countdown ttip">5 天 14:11:48</div>
+                                        </div>
+                                        <div class="discount_block daily_deal_discount discount_block_large">
+                                            <div class="discount_pct">-75%</div>
+                                            <div class="discount_prices">
+                                                <div class="discount_original_price">￥48</div>
+                                                <div class="discount_final_price">￥12</div>
+                                            </div>
+                                        </div>
+                                        <div class="store_capsule_hover">
+                                            <div class="dakuai">
+                                                <h4 class="h4ming">Slime Rancher</h4>
+                                                <p class="hover_release">发行于: 2017年8月2日</p>
+                                                <ul class="posi">
+                                                    <li>
+                                                        <img src="./images/ss_5339a74c4563d40a1d8a5638db2a9ed59c5b883b.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                    <li>
+                                                        <img src="./images/ss_d0e6a30325a9f7ff4fb3d6ba344c4131bb5f98cb.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                    <li>
+                                                        <img src="./images/ss_d923566424cee1c6d82ccde7336b02057d3409fc.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                    <li>
+                                                        <img src="./images/ss_633faaacb74e2da5baa356e0f18f9f73e777c4d2.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                </ul>
+                                                <div class="pingce">
+                                                    <p>总体用户评测:</p>
+                                                    <span class="pingcezuo">好评如潮</span>
+                                                    <span class="pingceyou">(24,799 篇评测)</span>
+                                                </div>
+                                                <div class="bianqian">
+                                                    <p class="bianp">用户标签：</p>
+                                                    <span>可爱</span>
+                                                    <span>探索</span>
+                                                    <span>冒险</span>
+                                                    <span>单人</span>
+                                                    <span>彩色</span>
+                                                    <span>第一人称视角</span>
+                                                    <span>开放世界</span>
+                                                    <span>欢乐</span>
+                                                </div>
+                                                <div class="sanjiao"></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="spotlight_s spotlight_ss">
+                                    <a href="" class="store_capsule daily_deal" id="app_impression_tracked">
+                                        <img class="capsule header" src="./images/header_alt_assets_6.jpg" alt="">
+                                        <div class="dailydeal_desc">
+                                            <div></div>
+                                            <div class="dailydeal_countdown ttip"></div>
+                                        </div>
+                                        <div class="discount_block daily_deal_discount discount_block_large">
+                                            <div class="discount_pct">-50%</div>
+                                            <div class="discount_prices">
+                                                <div class="discount_original_price">￥68</div>
+                                                <div class="discount_final_price">￥34</div>
+                                            </div>
+                                        </div>
+                                        <div class="store_capsule_hover">
+                                            <div class="dakuai">
+                                                <h4 class="h4ming">Sheltered</h4>
+                                                <p class="hover_release">发行于: 2016年3月16日</p>
+                                                <ul class="posi">
+                                                    <li>
+                                                        <img src="./images/ss_703220da86b49d28fff6aec6cfc11408b964b25f.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                    <li>
+                                                        <img src="./images/ss_105778b75d5ccd1ba5e62e059c8f7dbc2563968d.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                    <li>
+                                                        <img src="./images/ss_ddeccf13139d40797ddef5dc42025586545864fd.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                    <li>
+                                                        <img src="./images/ss_beb4b087e474eb6d3626101afeb801eb2202c0c6.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                </ul>
+                                                <div class="pingce">
+                                                    <p>总体用户评测:</p>
+                                                    <span class="pingcezuo">多半好评</span>
+                                                    <span class="pingceyou">(3,393 篇评测) </span>
+                                                </div>
+                                                <div class="bianqian">
+                                                    <p class="bianp">用户标签：</p>
+                                                    <span>独立</span>
+                                                    <span>冒险</span>
+                                                    <span>角色扮演</span>
+                                                    <span>互动小说</span>
+                                                    <span>好评原声音轨</span>
+                                                    <span>剧情丰富</span>
+                                                    <span>氛围</span>
+                                                    <span>单人</span>
+                                                </div>
+                                                <div class="sanjiao">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="" class="store_capsule daily_deal" id="app_impression_tracked">
+                                        <img class="capsule header"
+                                            src="https://media.st.dl.bscstorage.net/steam/apps/758190/header_schinese.jpg?t=1552804449"
+                                            alt="">
+                                        <div class="dailydeal_desc">
+                                            <div></div>
+                                            <div class="dailydeal_countdown ttip"></div>
+                                        </div>
+                                        <div class="discount_block daily_deal_discount discount_block_large">
+                                            <div class="discount_pct">-51%</div>
+                                            <div class="discount_prices">
+                                                <div class="discount_original_price">￥35</div>
+                                                <div class="discount_final_price">￥17</div>
+                                            </div>
+                                        </div>
+                                        <div class="store_capsule_hover">
+                                            <div class="dakuai">
+                                                <h4 class="h4ming">Dragon Cliff</h4>
+                                                <p class="hover_release">发行于: 2018年5月11日</p>
+                                                <ul class="posi">
+                                                    <li>
+                                                        <img src="./images/ss_0526c0c7b9c1e2bd8a4bb495e5fdba872a76e8fc.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                    <li>
+                                                        <img src="./images/ss_f8f23edcdfbda9831f37300c8d44c0c8482cfa6e.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                    <li>
+                                                        <img src="./images/ss_2d965abe54a8a34503e980409fe66b4a3dd48e89.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                    <li>
+                                                        <img src="./images/ss_b2736ed2e2bae8989d4fea6c6b3f13ab6568a4e3.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                </ul>
+                                                <div class="pingce">
+                                                    <p>总体用户评测:</p>
+                                                    <span class="pingcezuo">好评如潮</span>
+                                                    <span class="pingceyou">(24,799 篇评测)</span>
+                                                </div>
+                                                <div class="bianqian">
+                                                    <p class="bianp">用户标签：</p>
+                                                    <span>可爱</span>
+                                                    <span>探索</span>
+                                                    <span>冒险</span>
+                                                    <span>单人</span>
+                                                    <span>彩色</span>
+                                                    <span>第一人称视角</span>
+                                                    <span>开放世界</span>
+                                                    <span>欢乐</span>
+                                                </div>
+                                                <div class="sanjiao"></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="focus spotlight_move">
+                            <div class="home_area_spotlight">
+                                <div class="spotlight_">
+                                    <div class="spotlight_weeklong_ctn">
+                                        <div class="spotlight_text_overlay"
+                                            style="background-image: url(./images/spotlight_image_english.jpg)"></div>
+                                        <span class="spotlight_count">1279</span>
+                                    </div>
+                                    <div class="spotlight_weeklong_subtitle">每周一皆有新特惠</div>
+                                </div>
+                                <div class="spotlight_s">
+                                    <a href="" class="store_capsule daily_deal" id="app_impression_tracked">
+                                        <img class="capsule header" src="./images/header (2).jpg" alt="">
+                                        <div class="dailydeal_desc">
+                                            <div>今日特惠！</div>
+                                            <div class="dailydeal_countdown ttip">33:09:14</div>
+                                        </div>
+                                        <div class="discount_block daily_deal_discount discount_block_large">
+                                            <div class="discount_pct">-30%</div>
+                                            <div class="discount_prices">
+                                                <div class="discount_original_price">￥402</div>
+                                                <div class="discount_final_price">￥281</div>
+                                            </div>
+                                        </div>
+                                        <div class="store_capsule_hover">
+                                            <div class="dakuai">
+                                                <h4 class="h4ming">Kerbal Space Program</h4>
+                                                <p class="hover_release">发行于: 2015年4月28日</p>
+                                                <ul class="posi">
+                                                    <li>
+                                                        <img src="./images/ss_44f586b0c58ed455c309efd87ce15f46e072242b.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                    <li>
+                                                        <img src="./images/ss_d393792997ca01960a6843a5f6eb381895866662.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                    <li>
+                                                        <img src="./images/ss_25cce0f89404bb3ddc4028644a040784082b0763.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                    <li>
+                                                        <img src="./images/ss_dcfe84a90aba509e459d1e7d119aa7d365faf34a.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                </ul>
+                                                <div class="pingce">
+                                                    <p>总体用户评测:</p>
+                                                    <span class="pingcezuo">特别好评</span>
+                                                    <span class="pingceyou">(359 篇评测)</span>
+                                                </div>
+                                                <div class="bianqian">
+                                                    <p class="bianp">用户标签：</p>
+                                                    <span>独立</span>
+                                                    <span>冒险</span>
+                                                    <span>角色扮演</span>
+                                                    <span>互动小说</span>
+                                                    <span>好评原声音轨</span>
+                                                    <span>剧情丰富</span>
+                                                    <span>氛围</span>
+                                                    <span>单人</span>
+                                                </div>
+                                                <div class="sanjiao">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="" class="store_capsule daily_deal" id="app_impression_tracked">
+                                        <img class="capsule header" src="./images/header (3).jpg" alt="">
+                                        <div class="dailydeal_desc">
+                                            <div></div>
+                                            <div class="dailydeal_countdown ttip"></div>
+                                        </div>
+                                        <div class="discount_block daily_deal_discount discount_block_large">
+                                            <div class="discount_pct">-70%</div>
+                                            <div class="discount_prices">
+                                                <div class="discount_original_price">￥199</div>
+                                                <div class="discount_final_price">￥59</div>
+                                            </div>
+                                        </div>
+                                        <div class="store_capsule_hover">
+                                            <div class="dakuai">
+                                                <h4 class="h4ming">Sid Meier’s Civilization® VI</h4>
+                                                <p class="hover_release">发行于: 2016年10月21日</p>
+                                                <ul class="posi">
+                                                    <li>
+                                                        <img src="./images/ss_36c63ebeb006b246cb740fdafeb41bb20e3b330d.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                    <li>
+                                                        <img src="./images/ss_cf53258cb8c4d283e52cf8dce3edf8656f83adc6.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                    <li>
+                                                        <img src="./images/ss_f501156a69223131ee8b12452f3003698334e964.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                    <li>
+                                                        <img src="./images/ss_2be9153a2633e671c283e2dbcec64e2e4543f66f.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                </ul>
+                                                <div class="pingce">
+                                                    <p>总体用户评测:</p>
+                                                    <span class="pingcezuo">褒贬不一</span>
+                                                    <span class="pingceyou">(1,799 篇评测)</span>
+                                                </div>
+                                                <div class="bianqian">
+                                                    <p class="bianp">用户标签：</p>
+                                                    <span>可爱</span>
+                                                    <span>探索</span>
+                                                    <span>冒险</span>
+                                                    <span>单人</span>
+                                                    <span>彩色</span>
+                                                    <span>第一人称视角</span>
+                                                    <span>开放世界</span>
+                                                    <span>欢乐</span>
+                                                </div>
+                                                <div class="sanjiao"></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="spotlight_s spotlight_ss">
+                                    <a href="" class="store_capsule daily_deal" id="app_impression_tracked">
+                                        <img class="capsule header" src="./images/header (4).jpg" alt="">
+                                        <div class="dailydeal_desc">
+                                            <div></div>
+                                            <div class="dailydeal_countdown ttip"></div>
+                                        </div>
+                                        <div class="discount_block daily_deal_discount discount_block_large">
+                                            <div class="discount_pct">-70%</div>
+                                            <div class="discount_prices">
+                                                <div class="discount_original_price">￥158</div>
+                                                <div class="discount_final_price">￥47</div>
+                                            </div>
+                                        </div>
+                                        <div class="store_capsule_hover">
+                                            <div class="dakuai">
+                                                <h4 class="h4ming">Euro Truck Simulator 2</h4>
+                                                <p class="hover_release">发行于: 2012年10月13日</p>
+                                                <ul class="posi">
+                                                    <li>
+                                                        <img src="./images/ss_2ab0f02db0327d8161714c0d68570320cf18ca6b.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                    <li>
+                                                        <img src="./images/ss_8ca6ff86e3deb54ccd3e41a20dd0d15366d59d5a.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                    <li>
+                                                        <img src="./images/ss_18904391c52d167c23647d994790ef453cbfccf6.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                    <li>
+                                                        <img src="./images/ss_d860c95f83c4b3ef769c9fed2d22aaa3a680f4ba.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                </ul>
+                                                <div class="pingce">
+                                                    <p>总体用户评测:</p>
+                                                    <span class="pingcezuo">好评如潮</span>
+                                                    <span class="pingceyou">(145,393 篇评测) </span>
+                                                </div>
+                                                <div class="bianqian">
+                                                    <p class="bianp">用户标签：</p>
+                                                    <span>独立</span>
+                                                    <span>冒险</span>
+                                                    <span>角色扮演</span>
+                                                    <span>互动小说</span>
+                                                    <span>好评原声音轨</span>
+                                                    <span>剧情丰富</span>
+                                                    <span>氛围</span>
+                                                    <span>单人</span>
+                                                </div>
+                                                <div class="sanjiao">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="" class="store_capsule daily_deal" id="app_impression_tracked">
+                                        <img class="capsule header" src="./images/header (5).jpg" alt="">
+                                        <div class="dailydeal_desc">
+                                            <div></div>
+                                            <div class="dailydeal_countdown ttip"></div>
+                                        </div>
+                                        <div class="discount_block daily_deal_discount discount_block_large">
+                                            <div class="discount_pct">-51%</div>
+                                            <div class="discount_prices">
+                                                <div class="discount_original_price">￥35</div>
+                                                <div class="discount_final_price">￥17</div>
+                                            </div>
+                                        </div>
+                                        <div class="store_capsule_hover">
+                                            <div class="dakuai">
+                                                <h4 class="h4ming">Sword Art Online: Lost Song</h4>
+                                                <p class="hover_release">发行于: 2018年11月13日</p>
+                                                <ul class="posi">
+                                                    <li>
+                                                        <img src="./images/ss_b43b6237237510db015f27fe30d3f26dc768d6de.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                    <li>
+                                                        <img src="./images/ss_aecb641713a50e2c78e72410bd3356df472b9bed.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                    <li>
+                                                        <img src="./images/ss_5ce01157ff2c91e939bb697b187049c1e9737621.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                    <li>
+                                                        <img src="./images/ss_a805a3ff3ad801d242d3c4652a8e489e5a871359.600x338.jpg"
+                                                            alt="">
+                                                    </li>
+                                                </ul>
+                                                <div class="pingce">
+                                                    <p>总体用户评测:</p>
+                                                    <span class="pingcezuo">多半好评</span>
+                                                    <span class="pingceyou">(399 篇评测)</span>
+                                                </div>
+                                                <div class="bianqian">
+                                                    <p class="bianp">用户标签：</p>
+                                                    <span>可爱</span>
+                                                    <span>探索</span>
+                                                    <span>冒险</span>
+                                                    <span>单人</span>
+                                                    <span>彩色</span>
+                                                    <span>第一人称视角</span>
+                                                    <span>开放世界</span>
+                                                    <span>欢乐</span>
+                                                </div>
+                                                <div class="sanjiao"></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="arrow left left_arrow">
+                        <div></div>
+                    </div>
+                    <div class="arrow right right_arrow">
+                        <div></div>
+                    </div>
+                    <div class="dian">
+                        <span class="spanList"></span>
+                        <span class="spanList"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="big_buttons home_page_content">
+                <h2 id="content_h2">浏览 Steam</h2>
+                <ul class="button_container">
+                    <li class="btn_wrapper">新品</li>
+                    <li class="btn_wrapper">优惠</li>
+                    <li class="btn_wrapper">免费游戏</li>
+                    <li class="btn_wrapper">按用户标签</li>
+                </ul>
+            </div>
+            <div class="steam_curators_not_empty">
+                <h2 class="empty_h2">
+                    <b>为您建议</b>鉴赏家
+                </h2>
+                <div class="tags_jian">
+                    <div class="curator_page">
+                        <div class="profile">
+                            <img class="avatar" src="./images/3c43891c81b1c7d046cbbb37535291443721e105_medium.jpg"
+                                alt="">
+                            <div class="info">
+                                <div class="name">关注 中国鉴赏家同好会，获得更多类似评测！</div>
+                                <div class="actions">
+                                    <div class="follow_button">关注</div>
+                                    <span class="followers">520,619 名关注者</span>
+                                    <div class="socialmedia">
+                                        <img src="./images/facebook_32_white.png" alt="">0
+                                        <img src="./images/twitter_32_white.png" alt="">0
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ignore_button_area">忽略此鉴赏家</div>
+                        </div>
+                        <div class="curations">
+                            <div class="curations_div">
+                                <div class="curations_div_tu">
+                                    <img src="./images/header_292x136.jpg" alt="">
+                                    <span>¥ 199</span>
+                                </div>
+                                <span class="curations_div_zhong">推荐</span>
+                                <div class="curations_div_zi">狂怒2，一款被强行引入的开放世界元素以及不尽人意的APEX引擎耽误了的高素质主视角射击游戏</div>
+                            </div>
+                            <div class="curations_div">
+                                <div class="curations_div_tu">
+                                    <img src="./images/header_292x136 (1).jpg" alt="">
+                                    <span>¥ 70</span>
+                                </div>
+                                <span class="curations_div_zhong">推荐</span>
+                                <div class="curations_div_zi">
+                                    “我为什么不亲自去厨房做菜而要来玩一个游戏模拟做菜呢？”“我为什么要玩一个既费时又费力但是自己只能看到却摸不着吃不到的做菜游戏呢？”“我为什么要玩一个重复性高而且我生活中根本遇不到的菜品的游戏呢？”
+                                </div>
+                            </div>
+                            <div class="curations_div">
+                                <div class="curations_div_tu">
+                                    <img src="./images/header_292x136 (2).jpg" alt="">
+                                    <span>¥ 90</span>
+                                </div>
+                                <span class="curations_div_zhong">推荐</span>
+                                <div class="curations_div_zi">
+                                    一款非常有潜力的二战题材拟真FPS游戏。游戏的地图界面堪比现实中军事地图，而无剩余子弹提示的设计、腰射无准星需要精瞄的射击方式、以及完全靠肉眼识别敌我的战斗让游戏真实度大增。同时功能不同的各种士兵也是身负不同的重任都会对战局起到至关重要的作用。各种武器装备、载具等制作的也是相当细致，对于史实的还原很是到位。整体体验不错，不过也是相当硬核。整体来说非常推荐军迷玩家尝试，对于普通玩家来说需要熟悉适应。
+                                </div>
+                            </div>
+                            <div class="curations_div">
+                                <div class="curations_div_tu">
+                                    <img src="./images/header_292x136 (3).jpg" alt="">
+                                    <span>¥ 199</span>
+                                </div>
+                                <span class="curations_div_zhong">推荐</span>
+                                <div class="curations_div_zi">
+                                    《血污》是由五十岚亲自操刀再次把玩家带回传统恶魔城的一个作品，虽然有着制作的掣肘、优化不足和一些战斗难度设计上的缺点，但是其丰富的探索元素和恶魔城特色系统大杂烩为大家再一次演示了如何做好一款日式ARPG，这是一款绝对值得一玩的游戏。同时我认为这一作更多的意义在于为下一作做好铺垫
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="curator_page">
+                        <div class="profile">
+                            <img class="avatar" src="./images/3c43891c81b1c7d046cbbb37535291443721e105_medium.jpg"
+                                alt="">
+                            <div class="info">
+                                <div class="name">关注 中国鉴赏家同好会，获得更多类似评测！</div>
+                                <div class="actions">
+                                    <div class="follow_button">关注</div>
+                                    <span class="followers">520,619 名关注者</span>
+                                    <div class="socialmedia">
+                                        <img src="./images/facebook_32_white.png" alt="">0
+                                        <img src="./images/twitter_32_white.png" alt="">0
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ignore_button_area">忽略此鉴赏家</div>
+                        </div>
+                        <div class="curations">
+                            <div class="curations_div">
+                                <div class="curations_div_tu">
+                                    <img src="./images/header_292x136.jpg" alt="">
+                                    <span>¥ 199</span>
+                                </div>
+                                <span class="curations_div_zhong">推荐</span>
+                                <div class="curations_div_zi">狂怒2，一款被强行引入的开放世界元素以及不尽人意的APEX引擎耽误了的高素质主视角射击游戏</div>
+                            </div>
+                            <div class="curations_div">
+                                <div class="curations_div_tu">
+                                    <img src="./images/header_292x136 (1).jpg" alt="">
+                                    <span>¥ 70</span>
+                                </div>
+                                <span class="curations_div_zhong">推荐</span>
+                                <div class="curations_div_zi">
+                                    “我为什么不亲自去厨房做菜而要来玩一个游戏模拟做菜呢？”“我为什么要玩一个既费时又费力但是自己只能看到却摸不着吃不到的做菜游戏呢？”“我为什么要玩一个重复性高而且我生活中根本遇不到的菜品的游戏呢？”
+                                </div>
+                            </div>
+                            <div class="curations_div">
+                                <div class="curations_div_tu">
+                                    <img src="./images/header_292x136 (2).jpg" alt="">
+                                    <span>¥ 90</span>
+                                </div>
+                                <span class="curations_div_zhong">推荐</span>
+                                <div class="curations_div_zi">
+                                    一款非常有潜力的二战题材拟真FPS游戏。游戏的地图界面堪比现实中军事地图，而无剩余子弹提示的设计、腰射无准星需要精瞄的射击方式、以及完全靠肉眼识别敌我的战斗让游戏真实度大增。同时功能不同的各种士兵也是身负不同的重任都会对战局起到至关重要的作用。各种武器装备、载具等制作的也是相当细致，对于史实的还原很是到位。整体体验不错，不过也是相当硬核。整体来说非常推荐军迷玩家尝试，对于普通玩家来说需要熟悉适应。
+                                </div>
+                            </div>
+                            <div class="curations_div">
+                                <div class="curations_div_tu">
+                                    <img src="./images/header_292x136 (3).jpg" alt="">
+                                    <span>¥ 199</span>
+                                </div>
+                                <span class="curations_div_zhong">推荐</span>
+                                <div class="curations_div_zi">
+                                    《血污》是由五十岚亲自操刀再次把玩家带回传统恶魔城的一个作品，虽然有着制作的掣肘、优化不足和一些战斗难度设计上的缺点，但是其丰富的探索元素和恶魔城特色系统大杂烩为大家再一次演示了如何做好一款日式ARPG，这是一款绝对值得一玩的游戏。同时我认为这一作更多的意义在于为下一作做好铺垫
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="curator_page">
+                        <div class="profile">
+                            <img class="avatar" src="./images/3c43891c81b1c7d046cbbb37535291443721e105_medium.jpg"
+                                alt="">
+                            <div class="info">
+                                <div class="name">关注 中国鉴赏家同好会，获得更多类似评测！</div>
+                                <div class="actions">
+                                    <div class="follow_button">关注</div>
+                                    <span class="followers">520,619 名关注者</span>
+                                    <div class="socialmedia">
+                                        <img src="./images/facebook_32_white.png" alt="">0
+                                        <img src="./images/twitter_32_white.png" alt="">0
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ignore_button_area">忽略此鉴赏家</div>
+                        </div>
+                        <div class="curations">
+                            <div class="curations_div">
+                                <div class="curations_div_tu">
+                                    <img src="./images/header_292x136.jpg" alt="">
+                                    <span>¥ 199</span>
+                                </div>
+                                <span class="curations_div_zhong">推荐</span>
+                                <div class="curations_div_zi">狂怒2，一款被强行引入的开放世界元素以及不尽人意的APEX引擎耽误了的高素质主视角射击游戏</div>
+                            </div>
+                            <div class="curations_div">
+                                <div class="curations_div_tu">
+                                    <img src="./images/header_292x136 (1).jpg" alt="">
+                                    <span>¥ 70</span>
+                                </div>
+                                <span class="curations_div_zhong">推荐</span>
+                                <div class="curations_div_zi">
+                                    “我为什么不亲自去厨房做菜而要来玩一个游戏模拟做菜呢？”“我为什么要玩一个既费时又费力但是自己只能看到却摸不着吃不到的做菜游戏呢？”“我为什么要玩一个重复性高而且我生活中根本遇不到的菜品的游戏呢？”
+                                </div>
+                            </div>
+                            <div class="curations_div">
+                                <div class="curations_div_tu">
+                                    <img src="./images/header_292x136 (2).jpg" alt="">
+                                    <span>¥ 90</span>
+                                </div>
+                                <span class="curations_div_zhong">推荐</span>
+                                <div class="curations_div_zi">
+                                    一款非常有潜力的二战题材拟真FPS游戏。游戏的地图界面堪比现实中军事地图，而无剩余子弹提示的设计、腰射无准星需要精瞄的射击方式、以及完全靠肉眼识别敌我的战斗让游戏真实度大增。同时功能不同的各种士兵也是身负不同的重任都会对战局起到至关重要的作用。各种武器装备、载具等制作的也是相当细致，对于史实的还原很是到位。整体体验不错，不过也是相当硬核。整体来说非常推荐军迷玩家尝试，对于普通玩家来说需要熟悉适应。
+                                </div>
+                            </div>
+                            <div class="curations_div">
+                                <div class="curations_div_tu">
+                                    <img src="./images/header_292x136 (3).jpg" alt="">
+                                    <span>¥ 199</span>
+                                </div>
+                                <span class="curations_div_zhong">推荐</span>
+                                <div class="curations_div_zi">
+                                    《血污》是由五十岚亲自操刀再次把玩家带回传统恶魔城的一个作品，虽然有着制作的掣肘、优化不足和一些战斗难度设计上的缺点，但是其丰富的探索元素和恶魔城特色系统大杂烩为大家再一次演示了如何做好一款日式ARPG，这是一款绝对值得一玩的游戏。同时我认为这一作更多的意义在于为下一作做好铺垫
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="curator_page">
+                        <div class="profile">
+                            <img class="avatar" src="./images/3c43891c81b1c7d046cbbb37535291443721e105_medium.jpg"
+                                alt="">
+                            <div class="info">
+                                <div class="name">关注 中国鉴赏家同好会，获得更多类似评测！</div>
+                                <div class="actions">
+                                    <div class="follow_button">关注</div>
+                                    <span class="followers">520,619 名关注者</span>
+                                    <div class="socialmedia">
+                                        <img src="./images/facebook_32_white.png" alt="">0
+                                        <img src="./images/twitter_32_white.png" alt="">0
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ignore_button_area">忽略此鉴赏家</div>
+                        </div>
+                        <div class="curations">
+                            <div class="curations_div">
+                                <div class="curations_div_tu">
+                                    <img src="./images/header_292x136.jpg" alt="">
+                                    <span>¥ 199</span>
+                                </div>
+                                <span class="curations_div_zhong">推荐</span>
+                                <div class="curations_div_zi">狂怒2，一款被强行引入的开放世界元素以及不尽人意的APEX引擎耽误了的高素质主视角射击游戏</div>
+                            </div>
+                            <div class="curations_div">
+                                <div class="curations_div_tu">
+                                    <img src="./images/header_292x136 (1).jpg" alt="">
+                                    <span>¥ 70</span>
+                                </div>
+                                <span class="curations_div_zhong">推荐</span>
+                                <div class="curations_div_zi">
+                                    “我为什么不亲自去厨房做菜而要来玩一个游戏模拟做菜呢？”“我为什么要玩一个既费时又费力但是自己只能看到却摸不着吃不到的做菜游戏呢？”“我为什么要玩一个重复性高而且我生活中根本遇不到的菜品的游戏呢？”
+                                </div>
+                            </div>
+                            <div class="curations_div">
+                                <div class="curations_div_tu">
+                                    <img src="./images/header_292x136 (2).jpg" alt="">
+                                    <span>¥ 90</span>
+                                </div>
+                                <span class="curations_div_zhong">推荐</span>
+                                <div class="curations_div_zi">
+                                    一款非常有潜力的二战题材拟真FPS游戏。游戏的地图界面堪比现实中军事地图，而无剩余子弹提示的设计、腰射无准星需要精瞄的射击方式、以及完全靠肉眼识别敌我的战斗让游戏真实度大增。同时功能不同的各种士兵也是身负不同的重任都会对战局起到至关重要的作用。各种武器装备、载具等制作的也是相当细致，对于史实的还原很是到位。整体体验不错，不过也是相当硬核。整体来说非常推荐军迷玩家尝试，对于普通玩家来说需要熟悉适应。
+                                </div>
+                            </div>
+                            <div class="curations_div">
+                                <div class="curations_div_tu">
+                                    <img src="./images/header_292x136 (3).jpg" alt="">
+                                    <span>¥ 199</span>
+                                </div>
+                                <span class="curations_div_zhong">推荐</span>
+                                <div class="curations_div_zi">
+                                    《血污》是由五十岚亲自操刀再次把玩家带回传统恶魔城的一个作品，虽然有着制作的掣肘、优化不足和一些战斗难度设计上的缺点，但是其丰富的探索元素和恶魔城特色系统大杂烩为大家再一次演示了如何做好一款日式ARPG，这是一款绝对值得一玩的游戏。同时我认为这一作更多的意义在于为下一作做好铺垫
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="curator_page">
+                        <div class="profile">
+                            <img class="avatar" src="./images/3c43891c81b1c7d046cbbb37535291443721e105_medium.jpg"
+                                alt="">
+                            <div class="info">
+                                <div class="name">关注 中国鉴赏家同好会，获得更多类似评测！</div>
+                                <div class="actions">
+                                    <div class="follow_button">关注</div>
+                                    <span class="followers">520,619 名关注者</span>
+                                    <div class="socialmedia">
+                                        <img src="./images/facebook_32_white.png" alt="">0
+                                        <img src="./images/twitter_32_white.png" alt="">0
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ignore_button_area">忽略此鉴赏家</div>
+                        </div>
+                        <div class="curations">
+                            <div class="curations_div">
+                                <div class="curations_div_tu">
+                                    <img src="./images/header_292x136.jpg" alt="">
+                                    <span>¥ 199</span>
+                                </div>
+                                <span class="curations_div_zhong">推荐</span>
+                                <div class="curations_div_zi">狂怒2，一款被强行引入的开放世界元素以及不尽人意的APEX引擎耽误了的高素质主视角射击游戏</div>
+                            </div>
+                            <div class="curations_div">
+                                <div class="curations_div_tu">
+                                    <img src="./images/header_292x136 (1).jpg" alt="">
+                                    <span>¥ 70</span>
+                                </div>
+                                <span class="curations_div_zhong">推荐</span>
+                                <div class="curations_div_zi">
+                                    “我为什么不亲自去厨房做菜而要来玩一个游戏模拟做菜呢？”“我为什么要玩一个既费时又费力但是自己只能看到却摸不着吃不到的做菜游戏呢？”“我为什么要玩一个重复性高而且我生活中根本遇不到的菜品的游戏呢？”
+                                </div>
+                            </div>
+                            <div class="curations_div">
+                                <div class="curations_div_tu">
+                                    <img src="./images/header_292x136 (2).jpg" alt="">
+                                    <span>¥ 90</span>
+                                </div>
+                                <span class="curations_div_zhong">推荐</span>
+                                <div class="curations_div_zi">
+                                    一款非常有潜力的二战题材拟真FPS游戏。游戏的地图界面堪比现实中军事地图，而无剩余子弹提示的设计、腰射无准星需要精瞄的射击方式、以及完全靠肉眼识别敌我的战斗让游戏真实度大增。同时功能不同的各种士兵也是身负不同的重任都会对战局起到至关重要的作用。各种武器装备、载具等制作的也是相当细致，对于史实的还原很是到位。整体体验不错，不过也是相当硬核。整体来说非常推荐军迷玩家尝试，对于普通玩家来说需要熟悉适应。
+                                </div>
+                            </div>
+                            <div class="curations_div">
+                                <div class="curations_div_tu">
+                                    <img src="./images/header_292x136 (3).jpg" alt="">
+                                    <span>¥ 199</span>
+                                </div>
+                                <span class="curations_div_zhong">推荐</span>
+                                <div class="curations_div_zi">
+                                    《血污》是由五十岚亲自操刀再次把玩家带回传统恶魔城的一个作品，虽然有着制作的掣肘、优化不足和一些战斗难度设计上的缺点，但是其丰富的探索元素和恶魔城特色系统大杂烩为大家再一次演示了如何做好一款日式ARPG，这是一款绝对值得一玩的游戏。同时我认为这一作更多的意义在于为下一作做好铺垫
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel_thumbs_dian">
+                </div>
+                <div class="left dian_left">
+                    <div></div>
+                </div>
+                <div class="right dian_right">
+                    <div></div>
+                </div>
+            </div>
+            <div class="carousel_container paging_capsules">
+                <h2 class="winter">热门 VR 游戏
+                    <span>浏览所有</span>
+                </h2>
+                <div class="items_VR">
+                    <ul class="items_VR_div">
+                        <li class="app_impression_tracked">
+                            <img class="headerv5" src="./images/header_292x136 (4).jpg" alt="">
+                            <span class="discount_final_price">¥ 68</span>
+                        </li>
+                        <li class="app_impression_tracked">
+                            <img class="headerv5" src="./images/header_292x136_schinese.jpg" alt="">
+                            <span class="discount_final_price">¥ 66</span>
+                        </li>
+                        <li class="app_impression_tracked">
+                            <img class="headerv5" src="./images/header_292x136 (5).jpg" alt="">
+                            <span class="discount_final_price">¥ 68</span>
+                        </li>
+                        <li class="app_impression_tracked">
+                            <img class="headerv5" src="./images/header_292x136 (7).jpg" alt="">
+                            <span class="discount_final_price">¥ 29</span>
+                        </li>
+                    </ul>
+                    <ul class="items_VR_div">
+                        <li class="app_impression_tracked">
+                            <img class="headerv5" src="./images/header_292x136 (4).jpg" alt="">
+                            <span class="discount_final_price">¥ 68</span>
+                        </li>
+                        <li class="app_impression_tracked">
+                            <img class="headerv5" src="./images/header_292x136_schinese.jpg" alt="">
+                            <span class="discount_final_price">¥ 66</span>
+                        </li>
+                        <li class="app_impression_tracked">
+                            <img class="headerv5" src="./images/header_292x136 (5).jpg" alt="">
+                            <span class="discount_final_price">¥ 68</span>
+                        </li>
+                        <li class="app_impression_tracked">
+                            <img class="headerv5" src="./images/header_292x136 (7).jpg" alt="">
+                            <span class="discount_final_price">¥ 29</span>
+                        </li>
+                    </ul>
+                    <ul class="items_VR_div">
+                        <li class="app_impression_tracked">
+                            <img class="headerv5" src="./images/header_292x136 (4).jpg" alt="">
+                            <span class="discount_final_price">¥ 68</span>
+                        </li>
+                        <li class="app_impression_tracked">
+                            <img class="headerv5" src="./images/header_292x136_schinese.jpg" alt="">
+                            <span class="discount_final_price">¥ 66</span>
+                        </li>
+                        <li class="app_impression_tracked">
+                            <img class="headerv5" src="./images/header_292x136 (5).jpg" alt="">
+                            <span class="discount_final_price">¥ 68</span>
+                        </li>
+                        <li class="app_impression_tracked">
+                            <img class="headerv5" src="./images/header_292x136 (7).jpg" alt="">
+                            <span class="discount_final_price">¥ 29</span>
+                        </li>
+                    </ul>
+                    <ul class="items_VR_div">
+                        <li class="app_impression_tracked">
+                            <img class="headerv5" src="./images/header_292x136 (4).jpg" alt="">
+                            <span class="discount_final_price">¥ 68</span>
+                        </li>
+                        <li class="app_impression_tracked">
+                            <img class="headerv5" src="./images/header_292x136_schinese.jpg" alt="">
+                            <span class="discount_final_price">¥ 66</span>
+                        </li>
+                        <li class="app_impression_tracked">
+                            <img class="headerv5" src="./images/header_292x136 (5).jpg" alt="">
+                            <span class="discount_final_price">¥ 68</span>
+                        </li>
+                        <li class="app_impression_tracked">
+                            <img class="headerv5" src="./images/header_292x136 (7).jpg" alt="">
+                            <span class="discount_final_price">¥ 29</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class=""></div>
+                <div class="arrow left">
+                    <div></div>
+                </div>
+                <div class="arrow right">
+                    <div></div>
+                </div>
+            </div>
+            <div class="tab_container">
+                <div class="home_leftcol">
+                    <div class="store_ctn">
+                        <p class="tab_content">新品与热门商品</p>
+                    </div>
+                    <div class="home_tabs_content" id="items">
+                        <!--  -->
+                    </div>
+                    <div class="tab_see_more">
+                        <div class="paged_items_paging_controls">
+                            <span class="pagebtn disabled">《</span>
+                            <div id="NewReleases_links">
+                                <span class="paged_items_paging_pagelink active">1 </span>
+                                <span class="paged_items_paging_pagelink">2 </span>
+                                <span class="paged_items_paging_pagelink">3 </span>
+                                <span class="paged_items_paging_pagelink">4 </span>
+                                <span class="paged_items_paging_pagelink">5 </span>
+                                <span class="paged_items_paging_pagelink">6 </span>
+                                <span>...</span>
+                                <span class="paged_items_paging_pagelink">10</span>
+                            </div>
+                        <span class="pagebtn">》</span>
+                    </div>
+                    <div class="paged_items_paging_summary ellipsis">
+                        <span>正在显示第&nbsp1&nbsp-10&nbsp个，共&nbsp100&nbsp个结果</span>
+                    </div>
+                </div>
+            </div>
+            <div class="home_rightcol">
+                <div class="tab_preview_container">
+                    <div class="tab_preview">
+                        <h2 class="tab_preview_h2">英雄群侠传II</h2>
+                        <div class="tab_review_summary">
+                            <span class="title">总体用户评测：</span>
+                            <span class="title_lable"></span>
+                            <span class="game_review_summary">好评</span>
+                            <span>&nbsp;(12)</span>
+                        </div>
+                        <div class="tags">
+                            <a href="#">角色扮演</a>
+                            <a href="#">策略</a>
+                            <a href="#">冒险</a>
+                        </div>
+                        <div class="screenshot"></div>
+                        <div class="screenshot"></div>
+                        <div class="screenshot"></div>
+                        <div class="screenshot"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- </div>
+    </div> -->
+    <a class="app" id="item" href="javascript:;" gameId="">
+        <div class="app_left">
+        </div>
+        <div class="app_right">
+            <h2 class="app_right_top"></h2>
+            <ul class="app_right_middle">
+                <li>
+                    <img src="" alt="">
+                </li>
+                <li>
+                    <img src="" alt="">
+                </li>
+                <li>
+                    <img src="" alt="">
+                </li>
+                <li>
+                    <img src="" alt="">
+                </li>
+            </ul>
+            <p class="app_right_p">现已推出</p>
+            <div class="additional">
+                <div>热销商品</div>
+            </div>
+            <div class="app_right_bottom">
+                <p class="arb_p1">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </p>
+                <p class="arb_b2">
+                    <span class="platform_img1"></span>
+                    <span class="platform_img2"></span>
+                    <span class="platform_img3"></span>
+                    <span class="platform_img4"></span>
+                    <span class="platform_img5"></span>
+                </p>
+            </div>
+        </div>
+        <div class="hover game_hover">
+            <div class="dakuai">
+                <h4 class="h4ming">武侠乂 The Swordsmen X</h4>
+                <p class="hover_release"></p>
+                <ul class="posi">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <div class="pingce">
+                    <p>总体用户评测:</p>
+                    <span class="pingcezuo"></span>
+                    <span class="pingceyou"></span>
+                </div>
+                <div class="bianqian">
+                    <p class="bianp">用户标签：</p>
+                </div>
+                <div class="sanjiao"></div>
+            </div>
+        </div>
+    </a>
+    <a href="" class="tab_item" style="display: none;" gameId="">
+            <div class="tab_item_cap">
+                <img src="">
+            </div>
+            <div class="tab_item_discount">
+                <p class="discount_pct"></p>
+                <p class="discount_original_price"></p>
+                <p class="discount_final_price"></p>
+            </div>
+            <div class="tab_item_content">
+                <p class="tab_item_name"></p>
+            </div>
+            <div class="tab_item_details">
+                <div class="platform_img">
+                    <span class="platform_img_steam"></span>
+                    <span class="platform_img_windows"></span>
+                    <span class="platform_img_ios"></span>
+                    <span class="platform_img_VR">支持VR</span>
+                    <span class="platform_img_DZ">VR独占</span>
+                </div>
+                <div class="tab_item_top_tags">
+                </div>
+            </div>
+        </a>
+    <script src="./js/diyilunbotu.js"></script>
+    <script src="http://pujie1213.top:90/rcGame?callback=getJSON"></script>
+    <!-- <script src="/js/lunbotufengzhaung.js"></script> -->
+    <!-- <script>
+        $.ajax({
+            url: "http://pujie1213.top:90/rcGame",
+            type: "GET",
+            dataType:"jsonp",
+            success(data){
+                console.log(data)
+            }
+        });
+    </script> -->
+    <script src="./js/shuizhengqi.js"></script>
+    <script src="http://pujie1213.top:90/gamePage?page=1&callback=getPage"></script>
+</body>
+
+</html>

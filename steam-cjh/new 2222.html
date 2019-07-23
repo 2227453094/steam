@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	</head>
+	
+	<body>
+		
+		<script src="./js/jquery_Newest.js"></script>
+		<script>
+			var ajax = new XMLHttpRequest();
+			ajax.open("GET","/steam.json",false);
+			ajax.send();
+			console.log(ajax.responseText);
+		</script>
+	</body>
+</html>
