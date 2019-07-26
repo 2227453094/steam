@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>天气预报</title>
+		<style>
+			*{
+				padding:0;
+				margin:0;
+			}
+			li{
+			    list-style:none;
+				float:left;
+				margin-right:10px;
+				background:url(https://i02piccdn.sogoucdn.com/ed563d4b751d23bf) no-repeat;
+			}
+			p{
+				width:400px;
+				height:50px;
+				border-radius:10px;
+				color:yellow;
+				text-indent:20px;
+				line-height: 50px;
+				font-size: 20px;
+				margin-bottom:5px;
+				background-color:rgba(0, 0, 0, .4);
+			}
+		</style>
+	</head>
+	
+	<body>
+		<label for="city">请输入城市名进行查询：</label>
+		<input type="text" placeholder="请输入城市名" id="city">
+		<input type="button" id="dianJi" value="查询">
+		<ul id="ul"></ul>
+		<li style="display:none;">
+			<p class="date"></p>
+			<p class="temperature"></p>
+			<p class="weather"></p>
+			<p class="week"></p>
+			<p class="wind"></p>
+		</li>
+		<script>
+			var city = document.getElementById("city");
+			var dianJi = document.getElementById("dianJi");
+			var ul = document.getElementById("ul");
+			function getWeather(data) {
+			    var data = data.result.future;
+				for(var i in data){
+				    var newLi = document.getElementsByTagName("li")[0].cloneNode(true);
+					newLi.style = "";
+					newLi.getElementsByClassName("temperature")[0].innerHTML = data[i].temperature;
+					newLi.getElementsByClassName("weather")[0].innerHTML = data[i].weather;
+					newLi.getElementsByClassName("week")[0].innerHTML = data[i].week;
+					newLi.getElementsByClassName("date")[0].innerHTML = data[i].date;
+					newLi.getElementsByClassName("wind")[0].innerHTML = data[i].wind;
+					ul.appendChild(newLi);
+				}
+			}
+			dianJi.onclick = function () {
+				var txt = city.value;
+				var script = document.createElement("script");
+				script.setAttribute("src","http://v.juhe.cn/weather/index?cityname=" + txt + "&key=b996852ab6eaf9e38a06471d42593391&callback=getWeather")
+				document.head.appendChild(script);
+			}
+		</script>
+	</body>
+</html>

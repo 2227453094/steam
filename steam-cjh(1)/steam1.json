@@ -1,0 +1,559 @@
+[
+	{
+		"name": "Kubifaktorium",
+		"url": "https://store.steampowered.com/app/898720/Kubifaktorium/?snr=1_200_4__103",
+		"gameId": 898720,
+		"isSale": true,
+		"discount": 0.1,
+		"originPrice": 70,
+		"imgUrl": [
+			"https://media.st.dl.bscstorage.net/steam/apps/898720/capsule_184x69.jpg?t=1562172948",
+			"https://media.st.dl.bscstorage.net/steam/apps/898720/ss_8c70e792bcaf732c4c84bcb24cf9c4e387460ad7.600x338.jpg?t=1562172948",
+			"https://media.st.dl.bscstorage.net/steam/apps/898720/ss_1a9055872a862f1c7af2257e5d02caba22dd6083.600x338.jpg?t=1562172948",
+			"https://media.st.dl.bscstorage.net/steam/apps/898720/ss_403bbd0c8a5ddb14b300bfd43dd8f0402b77120b.600x338.jpg?t=1562172948",
+			"https://media.st.dl.bscstorage.net/steam/apps/898720/ss_cf130d9650343a367fa554f0e60c167d59ea3827.600x338.jpg?t=1562172948"
+		],
+		"price": 63,
+		"platform": [
+			"Windows",
+			"Steam",
+			"Mac OS"
+		],
+		"date": "2019-7-4",
+		"evaluate": 7,
+		"evaluatingCount": 8,
+		"label": [
+			"抢先体验",
+			"抢先体验",
+			"策略",
+			"模拟",
+			"独立",
+			"资源管理",
+			"建造",
+			"沙盒",
+			"制作",
+			"管理",
+			"城市营造",
+			"单人",
+			"奇幻",
+			"经济",
+			"基地建设",
+			"火车",
+			"生存",
+			"体素",
+			"可模组化",
+			"可爱"
+		]
+	},
+	{
+		"name": "Colonies",
+		"url": "https://store.steampowered.com/app/949070/Colonies/?snr=1_200_4__103",
+		"gameId": 949070,
+		"isSale": false,
+		"discount": 0,
+		"originPrice": 32,
+		"imgUrl": [
+			"https://media.st.dl.bscstorage.net/steam/apps/949070/capsule_184x69.jpg?t=1562078092",
+			"https://media.st.dl.bscstorage.net/steam/apps/949070/ss_3b77b4f02cb508c925d93d55c4bfbefdb36d33fe.600x338.jpg?t=1562078092",
+			"https://media.st.dl.bscstorage.net/steam/apps/949070/ss_be1d0fdc6484fe4e90bd4bb1599801e51b512c07.600x338.jpg?t=1562078092",
+			"https://media.st.dl.bscstorage.net/steam/apps/949070/ss_d5a9be08d6fdc80d8e7f8d4143e6663f0ff963ae.600x338.jpg?t=1562078092",
+			"https://media.st.dl.bscstorage.net/steam/apps/949070/ss_acff26d09d861941539a0934f098841fc5d2fb0a.600x338.jpg?t=1562078092"
+		],
+		"price": 32,
+		"platform": [
+			"Windows"
+		],
+		"date": "2019-7-2",
+		"evaluate": 7,
+		"evaluatingCount": 1,
+		"label": [
+			"抢先体验",
+			"策略",
+			"独立",
+			"抢先体验",
+			"休闲",
+			"机甲世界"
+		]
+	},
+	{
+		"name": "Castle Woodwarf 2",
+		"url": "https://store.steampowered.com/app/1065580/Castle_Woodwarf_2/?snr=1_200_4__103",
+		"gameId": 1065580,
+		"isSale": true,
+		"discount": 0.18,
+		"originPrice": 28,
+		"imgUrl": [
+			"https://media.st.dl.bscstorage.net/steam/apps/1065580/capsule_184x69.jpg?t=1562021622",
+			"https://media.st.dl.bscstorage.net/steam/apps/1065580/ss_b287f12018a372b1442fd9e9d44009cf263580bd.600x338.jpg?t=1562021622",
+			"https://media.st.dl.bscstorage.net/steam/apps/1065580/ss_5c6e88685608ca21ec5f50b9c7429a88f4568831.600x338.jpg?t=1562021622",
+			"https://media.st.dl.bscstorage.net/steam/apps/1065580/ss_40607719a0e23854fc0cc5021428747dd850c4b2.600x338.jpg?t=1562021622",
+			"https://media.st.dl.bscstorage.net/steam/apps/1065580/ss_fcb36b4da4c2a12dd81e60a0c46b44bbeb9ea686.600x338.jpg?t=1562021622"
+		],
+		"price": 23,
+		"platform": [
+			"Windows"
+		],
+	    "date":"2019-7-2",
+	    "evaluate": 7,
+		"evaluatingCount": 9,
+		"label": [
+			"抢先体验",
+			"独立",
+			"策略",
+			"休闲",
+			"奇幻",
+			"龙",
+			"抢先体验",
+			"塔防",
+			"单人",
+			"管理",
+			"模拟",
+			"二维",
+			"像素图形",
+			"策略角色扮演",
+			"氛围",
+			"重玩价值",
+			"好评原声音轨"
+		]
+	},
+	{
+		"name": "Herakles and the Princess of Troy",
+		"url": "https://store.steampowered.com/app/1066010/Herakles_and_the_Princess_of_Troy/?snr=1_200_4__103",
+		"gameId": 1066010,
+		"isSale": false,
+		"discount": 0,
+		"originPrice": 22,
+		"imgUrl": [
+			"https://media.st.dl.bscstorage.net/steam/apps/1066010/capsule_184x69.jpg?t=1562009494",
+			"https://media.st.dl.bscstorage.net/steam/apps/1066010/ss_bcf647fb639c6411888d36f2ecd63496083fd02c.600x338.jpg?t=1562009494",
+			"https://media.st.dl.bscstorage.net/steam/apps/1066010/ss_dbf8d0bc27f5879fb43375ea0e610d181b8f4d6a.600x338.jpg?t=1562009494",
+			"https://media.st.dl.bscstorage.net/steam/apps/1066010/ss_89dd66794cd3a4a28b242a11ae02c70fc4e92580.600x338.jpg?t=1562009494",
+			"https://media.st.dl.bscstorage.net/steam/apps/1066010/ss_d14b0a51237e4b2ae485083b99f7ce9ce5248290.600x338.jpg?t=1562009494"
+		],
+		"price": 22,
+		"platform": [
+			"Windows"
+		],
+		"date": "2019-7-2",
+		"evaluate": 0,
+		"evaluatingCount": 0,
+		"label": [
+			"抢先体验",
+			"动作",
+			"独立",
+			"休闲"
+		]
+	},
+	{
+		"name": "Ring the City",
+		"url": "https://store.steampowered.com/app/1070320/Ring_the_City/?snr=1_200_4__103",
+		"gameId": 1070320,
+		"isSale": true,
+		"discount": 0.16,
+		"originPrice": 38,
+		"imgUrl": [
+			"https://media.st.dl.bscstorage.net/steam/apps/1070320/capsule_184x69.jpg?t=1562172925",
+			"https://media.st.dl.bscstorage.net/steam/apps/1070320/ss_70953e8735ccbe786dd4c37517ea4e90b174ce58.600x338.jpg?t=1562172925",
+			"https://media.st.dl.bscstorage.net/steam/apps/1070320/ss_18dca0161ccc88307340cb9e601d05e84da1efde.600x338.jpg?t=1562172925",
+			"https://media.st.dl.bscstorage.net/steam/apps/1070320/ss_a751a8e684955150569c85be9e5ac57cf6af4b66.600x338.jpg?t=1562172925",
+			"https://media.st.dl.bscstorage.net/steam/apps/1070320/ss_942dbf91ec4d25e602fd7e5899ab2cd67f205e31.600x338.jpg?t=1562172925"
+		],
+		"price": 32,
+		"platform": [
+			"Windows"
+		],
+		"date": "2019-7-1",
+		"evaluate": 3,
+		"evaluatingCount": 34,
+		"label": [
+			"抢先体验",
+			"策略",
+			"抢先体验",
+			"冒险",
+			"独立",
+			"类Rogue"
+		]
+	},
+	{
+		"name": "Battle Grounds III",
+		"url": "https://store.steampowered.com/app/1057700/Battle_Grounds_III/?snr=1_200_4__103",
+		"gameId": 1057700,
+		"isSale": false,
+		"discount": 0,
+		"originPrice": "免费开玩",
+		"imgUrl": [
+			"https://media.st.dl.bscstorage.net/steam/apps/1057700/capsule_184x69.jpg?t=1561921069",
+			"After 6 years of development, Battle Grounds III (BG3) is the next iteration in the classic franchise which began17 years ago. Prepare for battle in the American War of Independence!"
+		],
+		"price": "免费开玩",
+		"platform": [
+			"Windows"
+		],
+		"date": "2019-7-1",
+		"evaluate": 2,
+		"evaluatingCount": 303,
+		"label": [
+			"抢先体验",
+			"免费",
+			"动作",
+			"独立",
+			"抢先体验",
+			"暴力",
+			"历史"
+		]
+	},
+	{
+		"name": "Eldervale",
+		"url": "https://store.steampowered.com/app/1032830/Eldervale/?snr=1_200_4__103",
+		"gameId": 1032830,
+		"isSale": false,
+		"discount": 0,
+		"originPrice": 37,
+		"imgUrl": [
+			"https://media.st.dl.bscstorage.net/steam/apps/1032830/capsule_184x69.jpg?t=1562076887",
+			"https://media.st.dl.bscstorage.net/steam/apps/1032830/ss_375494622ed52c9a4e1ed96edfc5b9d138a47e10.600x338.jpg?t=1562076887",
+			"https://media.st.dl.bscstorage.net/steam/apps/1032830/ss_7f1f465c1e0f789dd7ec89ceeb8826d766909567.600x338.jpg?t=1562076887",
+			"https://media.st.dl.bscstorage.net/steam/apps/1032830/ss_cad0a10d276d00ec2128adc97f6a3b5f4dd8185e.600x338.jpg?t=1562076887",
+			"https://media.st.dl.bscstorage.net/steam/apps/1032830/ss_1f9ccb0dcf248079bb19d5de8f6f2e1089f670f7.600x338.jpg?t=1562076887"
+		],
+		"price": 37,
+		"platform": [
+			"Windows"
+		],
+		"date": "2019-7-1",
+		"evaluate": 7,
+		"evaluatingCount": 5,
+		"label": [
+			"抢先体验",
+			"独立",
+			"抢先体验",
+			"血腥",
+			"暴力",
+			"动作",
+			"冒险",
+			"恐怖",
+			"生存恐怖"
+		]
+	},
+	{
+		"name": "#SkiJump",
+		"url": "https://store.steampowered.com/app/392150/SkiJump/?snr=1_200_4__103",
+		"gameId": 392150,
+		"isSale": true,
+		"discount": 0.32,
+		"originPrice": 37,
+		"imgUrl": [
+			"https://media.st.dl.bscstorage.net/steam/apps/392150/capsule_184x69.jpg?t=1561755905",
+			"https://media.st.dl.bscstorage.net/steam/apps/392150/ss_d97970c1651af00aa4f2324f6eeb55e495065455.600x338.jpg?t=1561755905",
+			"https://media.st.dl.bscstorage.net/steam/apps/392150/ss_a1de7fc20cf3b57e0a911c574d4d079f1ca2d8c7.600x338.jpg?t=1561755905",
+			"https://media.st.dl.bscstorage.net/steam/apps/392150/ss_e629ae692fdd9ac9194c6259aaed24cfc046921c.600x338.jpg?t=1561755905",
+			"https://media.st.dl.bscstorage.net/steam/apps/392150/ss_0c9993f39c09cb615420735e0fccec8305be8378.600x338.jpg?t=1561755905"
+		],
+		"price": 25,
+		"platform": [
+			"Windows",
+			"支持VR"
+		],
+		"date": "2019-6-29",
+		"evaluate": 7,
+		"evaluatingCount": 2,
+		"label": [
+			"抢先体验",
+			"体育",
+			"独立",
+			"抢先体验",
+			"竞速",
+			"虚拟现实"
+		]
+	},
+	{
+		"name": "Museum of Other Realities",
+		"url": "https://store.steampowered.com/app/613900/Museum_of_Other_Realities/?snr=1_200_4__103",
+		"gameId": 613900,
+		"isSale": false,
+		"discount": 0,
+		"originPrice": 70,
+		"imgUrl": [
+			"https://media.st.dl.bscstorage.net/steam/apps/613900/capsule_184x69.jpg?t=1561757225",
+			"https://media.st.dl.bscstorage.net/steam/apps/613900/ss_0a851e9e2662430eb9addee67b36456592f943ca.600x338.jpg?t=1561757225",
+			"https://media.st.dl.bscstorage.net/steam/apps/613900/ss_b65e9ad5fad48269f172f12c254fa2ba0a82f0d7.600x338.jpg?t=1561757225",
+			"https://media.st.dl.bscstorage.net/steam/apps/613900/ss_089619d8e945e9fa486be368bb056cff5791ff4f.600x338.jpg?t=1561757225",
+			"https://media.st.dl.bscstorage.net/steam/apps/613900/ss_d78bb8478dd69dad0a91e6328336ba96e09bf0cb.600x338.jpg?t=1561757225"
+		],
+		"price": 70,
+		"platform": [
+			"Windows",
+			"支持VR"
+		],
+		"date": "2019-6-29",
+		"evaluate": 7,
+		"evaluatingCount": 2,
+		"label": [
+			"抢先体验",
+			"抢先体验",
+			"休闲",
+			"模拟",
+			"虚拟现实"
+		]
+	},
+	{
+		"name": "Storm Chasers",
+		"url": "https://store.steampowered.com/app/862800/Storm_Chasers/?snr=1_200_4__103",
+		"gameId": 862800,
+		"isSale": true,
+		"discount": 0.16,
+		"originPrice": 43,
+		"imgUrl": [
+			"https://media.st.dl.bscstorage.net/steam/apps/862800/capsule_184x69.jpg?t=1561739244",
+			"https://media.st.dl.bscstorage.net/steam/apps/862800/ss_9663a42be2eea8958105e3703fbaa006d2e857c3.600x338.jpg?t=1561739244",
+			"https://media.st.dl.bscstorage.net/steam/apps/862800/ss_2c5991821823443e0eddfe340614e709cece1ccc.600x338.jpg?t=1561739244",
+			"https://media.st.dl.bscstorage.net/steam/apps/862800/ss_d7451331ac7a0509ec8853a24c132d62de7a2bc3.600x338.jpg?t=1561739244",
+			"https://media.st.dl.bscstorage.net/steam/apps/862800/ss_9a1322fbd133b4c2e451a8e506883ad2e6b799e3.600x338.jpg?t=1561739244"
+		],
+		"price": 36,
+		"platform": [
+			"Windows"
+		],
+		"date": "2019-6-29",
+		"evaluate": 2,
+		"evaluatingCount": 66,
+		"label": [
+			"抢先体验",
+			"动作",
+			"模拟",
+			"抢先体验",
+			"独立"
+		]
+	},
+	{
+		"name": "SlipSlop: World's Hardest Platformer Game",
+		"url": "https://store.steampowered.com/app/1093720/SlipSlop_Worlds_Hardest_Platformer_Game/?snr=1_200_4__103",
+		"gameId": 1093720,
+		"isSale": false,
+		"discount": 0,
+		"originPrice": "免费开玩",
+		"imgUrl": [
+			"https://media.st.dl.bscstorage.net/steam/apps/1093720/capsule_184x69.jpg?t=1561964695",
+			"https://media.st.dl.bscstorage.net/steam/apps/1093720/ss_d9990c791b755494e47de7386a8cc5a717ab88fe.600x338.jpg?t=1561964695",
+			"https://media.st.dl.bscstorage.net/steam/apps/1093720/ss_9ea7037dab4fa30434bb399772bc247ca13df729.600x338.jpg?t=1561964695",
+			"https://media.st.dl.bscstorage.net/steam/apps/1093720/ss_eb8cec6adf09217bb1dbaf222b3686863d87e917.600x338.jpg?t=1561964695",
+			"https://media.st.dl.bscstorage.net/steam/apps/1093720/ss_bcfa612917956bdfa343cc083191a57c07cb90b1.600x338.jpg?t=1561964695"
+		],
+		"price": "免费开玩",
+		"platform": [
+			"Windows"
+		],
+		"date": "2019-6-28",
+		"evaluate": 1,
+		"evaluatingCount": 1598,
+		"label": [
+			"抢先体验",
+			"免费",
+			"抢先体验",
+			"动作",
+			"独立",
+			"策略",
+			"困难"
+		]
+	},
+	{
+		"name": "九劫曲：诅咒之地 NINE TRIALS",
+		"url": "https://store.steampowered.com/app/976800/_NINE_TRIALS/?snr=1_200_4__103",
+		"gameId": 976800,
+		"isSale": true,
+		"discount": 0.22,
+		"originPrice": 68,
+		"imgUrl": [
+			"https://media.st.dl.bscstorage.net/steam/apps/976800/capsule_184x69.jpg?t=1561773432",
+			"https://media.st.dl.bscstorage.net/steam/apps/976800/ss_6063e1600ac163bca33cf92957d6e0a066fb1385.600x338.jpg?t=1561773432",
+			"https://media.st.dl.bscstorage.net/steam/apps/976800/ss_0d5fb81e1417e35b9a5dcac26a08e4716fc6d7e5.600x338.jpg?t=1561773432",
+			"https://media.st.dl.bscstorage.net/steam/apps/976800/ss_259c40a8572d21f4243113ab6cab3d30073b9d2b.600x338.jpg?t=1561773432",
+			"https://media.st.dl.bscstorage.net/steam/apps/976800/ss_48b2afacca7870a1904bb9cb8873bdbc2ca569a3.600x338.jpg?t=1561773432"
+		],
+		"price": 53,
+		"platform": [
+			"Windows"
+		],
+		"date": "2019-6-28",
+		"evaluate": 4,
+		"evaluatingCount": 172,
+		"label": [
+			"抢先体验",
+			"动作",
+			"大型多人在线",
+			"抢先体验",
+			"血腥",
+			"暴力",
+			"角色扮演",
+			"冒险",
+			"大逃杀"
+		]
+	},
+	{
+		"name": "Code S-44: Episode 1",
+		"url": "https://store.steampowered.com/app/1055380/Code_S44_Episode_1/?snr=1_200_4__103",
+		"gameId": 1055380,
+		"isSale": false,
+		"discount": 0,
+		"originPrice": "免费开玩",
+		"imgUrl": [
+			"https://media.st.dl.bscstorage.net/steam/apps/1055380/capsule_184x69.jpg?t=1561959712",
+			"https://media.st.dl.bscstorage.net/steam/apps/1055380/ss_01f1fcd1c1cda75aca686442928e3fe75bd84e7b.600x338.jpg?t=1561959712",
+			"https://media.st.dl.bscstorage.net/steam/apps/1055380/ss_2d0c81e4df5f8b77d3bd1c783a75d2b8e41fc358.600x338.jpg?t=1561959712",
+			"https://media.st.dl.bscstorage.net/steam/apps/1055380/ss_54d8cb8d5b78c4dcb84aad627c14590be64328b1.600x338.jpg?t=1561959712",
+			"https://media.st.dl.bscstorage.net/steam/apps/1055380/ss_478751f4fbb891327ba7cd5188394093bc2524d4.600x338.jpg?t=1561959712"
+		],
+		"price": "免费开玩",
+		"platform": [
+			"Windows"
+		],
+		"date": "2019-6-26",
+		"evaluate": 3,
+		"evaluatingCount": 52,
+		"label": [
+			"抢先体验",
+			"免费",
+			"冒险",
+			"独立",
+			"抢先体验",
+			"潜行",
+			"科幻",
+			"动作",
+			"平台游戏",
+			"第三人称视角",
+			"剧情丰富",
+			"探索",
+			"欢乐",
+			"氛围",
+			"单人",
+			"剧集",
+			"喜剧",
+			"卡通",
+			"可爱",
+			"记叙"
+		]
+	},
+	{
+		"name": "FINAL ARCHER VR",
+		"url": "https://store.steampowered.com/app/1087600/FINAL_ARCHER_VR/?snr=1_200_4__103",
+		"gameId": 1087600,
+		"isSale": false,
+		"discount": 0,
+		"originPrice": 28,
+		"imgUrl": [
+			"https://media.st.dl.bscstorage.net/steam/apps/1087600/capsule_184x69.jpg?t=1561512145",
+			"https://media.st.dl.bscstorage.net/steam/apps/1087600/ss_11efe6ccaa2b434e7183c66cf9f31f0ecd6225a1.600x338.jpg?t=1561512145",
+			"https://media.st.dl.bscstorage.net/steam/apps/1087600/ss_09ddca179a58ca59236e818a6bf238b6829c5ec6.600x338.jpg?t=1561512145",
+			"https://media.st.dl.bscstorage.net/steam/apps/1087600/ss_bac1fd4166d4f8c0d69a654812797585c12128da.600x338.jpg?t=1561512145",
+			"https://media.st.dl.bscstorage.net/steam/apps/1087600/ss_3d22512a1cef4f62dd84bb48487f680801f193b6.600x338.jpg?t=1561512145"
+		],
+		"price": 28,
+		"platform": [
+			"Windows",
+			"VR独占"
+		],
+		"date": "2019-6-26",
+		"evaluate": 3,
+		"evaluatingCount": 12,
+		"label": [
+			"抢先体验",
+			"动作",
+			"独立",
+			"休闲",
+			"血腥",
+			"暴力",
+			"抢先体验",
+			"虚拟现实"
+		]
+	},
+	{
+		"name": "It Stares Back",
+		"url": "https://store.steampowered.com/app/1094250/It_Stares_Back/?snr=1_200_4__103",
+		"gameId": 1094250,
+		"isSale": false,
+		"discount": 0,
+		"originPrice": 26,
+		"imgUrl": [
+			"https://media.st.dl.bscstorage.net/steam/apps/1094250/capsule_184x69.jpg?t=1561655624",
+			"https://media.st.dl.bscstorage.net/steam/apps/1094250/ss_c7298a43e9fd6ae18f74c0c58752a2f2b0d7132b.600x338.jpg?t=1561655624",
+			"https://media.st.dl.bscstorage.net/steam/apps/1094250/ss_f0c9f3a6df0bf630c67fe04afcc859b079b9c0cc.600x338.jpg?t=1561655624",
+			"https://media.st.dl.bscstorage.net/steam/apps/1094250/ss_df278e91ff31f987363ed79e0904156bf75a638c.600x338.jpg?t=1561655624",
+			"https://media.st.dl.bscstorage.net/steam/apps/1094250/ss_c8286580e9cca8ea8e1475b7faea3f3fb0619604.600x338.jpg?t=1561655624"
+		],
+		"price": 26,
+		"platform": [
+			"Windows"
+		],
+		"date": "2019-6-26",
+		"evaluate": 7,
+		"evaluatingCount": 9,
+		"label": [
+			"抢先体验",
+			"策略",
+			"动作",
+			"抢先体验",
+			"独立",
+			"角色扮演",
+			"冒险",
+			"洛夫克拉夫特式",
+			"即时",
+			"黑暗奇幻",
+			"快节奏",
+			"六角格棋盘",
+			"恐怖",
+			"科幻.",
+			"动态记叙",
+			"视觉小说",
+			"风格化",
+			"等角",
+			"哥特",
+			"超人类主义"
+		]
+	},
+	{
+		"name": "A.N.N.E",
+		"url": "https://store.steampowered.com/app/262370/ANNE/?snr=1_200_4__103",
+		"gameId": 262370,
+		"isSale": false,
+		"discount": 0,
+		"originPrice": 50,
+		"imgUrl": [
+			"https://media.st.dl.bscstorage.net/steam/apps/262370/capsule_184x69.jpg?t=1561484522",
+			"https://media.st.dl.bscstorage.net/steam/apps/262370/ss_b7b1e1647a3c5326d62616da5d88bac68f2d80af.600x338.jpg?t=1561484522",
+			"https://media.st.dl.bscstorage.net/steam/apps/262370/ss_56adac3466b916a8df8414c55673116791273eef.600x338.jpg?t=1561484522",
+			"https://media.st.dl.bscstorage.net/steam/apps/262370/ss_17536d7d39ab8e519369c9a1a05ef40b6c59aa1c.600x338.jpg?t=1561484522",
+			"https://media.st.dl.bscstorage.net/steam/apps/262370/ss_8e77c72610f6e4c77c6f64a03044326e8d3c7750.600x338.jpg?t=1561484522"
+		],
+		"price": 50,
+		"platform": [
+			"Windows",
+			"Steam",
+			"Mac OS"
+		],
+		"date": "2019-6-25",
+		"evaluate": 7,
+		"evaluatingCount": 4,
+		"label": [
+			"抢先体验",
+			"独立",
+			"抢先体验",
+			"动作",
+			"冒险",
+			"角色扮演",
+			"平台游戏",
+			"像素图形",
+			"清版射击",
+			"类银河战士恶魔城",
+			"单人",
+			"科幻",
+			"Kickstarter",
+			"横向滚屏",
+			"动漫",
+			"复古",
+			"怀旧",
+			"好评原声音轨",
+			"可爱",
+			"困难"
+		]
+	}
+]
